@@ -1,14 +1,28 @@
 {
-  "name": "node_express_demo",
+  "name": "chat",
   "version": "1.0.0",
-  "description": "demo project to practise express",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "nodemon": "nodemon server.js"
   },
-  "author": "amanjot singh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amanjotsinghdhunna/express.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amanjotsinghdhunna/express/issues"
+  },
+  "homepage": "https://github.com/amanjotsinghdhunna/express#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongodb": "^3.5.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
