@@ -15,6 +15,3 @@ const insertDocuments = function (db, data = dummyData, callback) {
         // callback(result);
     });
 }
-
-  // insertDocuments(dbName)
-  // add middleware , app.use()
